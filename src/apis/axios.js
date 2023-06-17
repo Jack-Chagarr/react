@@ -52,5 +52,5 @@ if (process.env.NODE_ENV === "development") {
   axios.defaults.baseURL = "http://localhost:8000/api";
 } else {
   axios.defaults.baseURL =
-    "https://port-0-django-7xwyjq992llizm5au9.sel4.cloudtype.api/";
+    "https://port-0-django-7xwyjq992llizm5au9.sel4.cloudtype.app/api";
 }
